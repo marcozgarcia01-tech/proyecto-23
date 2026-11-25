@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación del clima usando la API de Open-Meteo.">
+    <meta name="keywords" content="clima, tiempo, API, JavaScript">
+    <meta name="author" content="Marcos Garcia">
+    <title>App del Clima</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <main class="contenedorPrincipal">
+        <h1>App del Clima </h1>
+
+        <section class="cajaBusqueda">
+            <input type="text" id="ubicacion" placeholder="Ej: Sogamoso" value="Sogamoso">
+            <button id="botonBuscar">Buscar</button>
+        </section>
+
+        <section id="climaActual" class="tarjetaClima">
+            <p>Ingresa una ubicación y presiona Buscar.</p>
+        </section>
+
+        <section id="listaHoras" class="listaHoras"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

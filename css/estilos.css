@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorPrincipal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #1d3f0f;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.cajaBusqueda {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#ubicacion {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #094b25;
+    border-radius: 5px;
+}
+
+#botonBuscar {
+    background-color: #0e5031;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tarjetaClima {
+    background-color: #e5f5e6;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tarjetaClima h2 {
+    color: #0b4b1e;
+    margin: 0 0 10px 0;
+}
+
+.listaHoras {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.hora {
+    background-color: #0f5e1c;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.hora span {
+    color: #07331f;
+}
